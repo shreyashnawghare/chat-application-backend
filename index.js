@@ -18,7 +18,7 @@ const server = http.createServer(app);
 
 const io =  Server(server, {
   cors: {
-    origin: "http://socketiochatapp.netlify.app",
+    origin: "https://elastic-swanson-0e6eac.netlify.app",
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
