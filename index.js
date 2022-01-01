@@ -18,7 +18,7 @@ const server = http.createServer(app);
 
 const io =  Server(server, {
   cors: {
-    origin: "https://elastic-swanson-0e6eac.netlify.app",
+    origin: "https://cocky-leakey-e3155e.netlify.app",
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
